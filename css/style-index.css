@@ -1,0 +1,429 @@
+body {
+    background: rgb(22, 24, 22);
+    color: white;
+    font-family: Play;
+    margin: 0;
+    padding: 0;
+}
+
+.background-div {
+    background: url(/jpg/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-div-1 {
+    background: url(/jpg/1638285026_22-sportishka-com-p-kachok-v-trenazhernom-zale-krasivie-foto-s-25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-div-opacity {
+    background-color: rgba(22, 24, 22, 0.9);
+}
+
+ul li {
+    display: block;
+    text-decoration: none;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.header-container {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.ul-container {
+    display: flex;
+    align-items: center;
+}
+
+.container-h1 {
+    margin-right: 350px;
+}
+
+.ul-list {
+    align-items: center;
+    display: flex;
+}
+
+.ul-list-content {
+    margin-right: 90px;
+}
+
+.ul-text {
+    font-size: 18px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.a-text-1 {
+    text-decoration: overline;
+    text-decoration-color: greenyellow;
+}
+
+.a-text {
+    text-decoration: none;
+    text-decoration-color: transparent;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+/* анимация появления верхнего подчеркивания при наведении */
+/* ------------------------------------------------- */
+.a-text:hover {
+    text-decoration: overline;
+    text-decoration-color: greenyellow;
+}
+/* ------------------------------------------------- */
+
+.icons-container {
+    display: flex;
+    margin-left: auto;
+}
+
+.icon-container {
+    margin-right: 30px;
+}
+
+.icon-img {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+main {
+    padding-top: 220px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 150px;
+}
+
+.main-h1-container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-text-container {
+    text-align: center;
+}
+
+.main-h1-text {
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.main-p-container {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-p-text {
+    font-size: 22px;
+}
+
+.main-button-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.main-button-container-margin {
+    margin-left: auto;
+    margin-right: 45px;
+}   
+
+.main-button-container-margin-1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.button-start-now {
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 35px;
+    font-size: 18px;
+    background: greenyellow;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.button-start-now:hover {
+    box-shadow: 0 0 10px rgb(88, 129, 26);
+    background: rgb(88, 129, 26);
+}
+
+.button-learn-more {
+    display: block;
+    font-size: 18px;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.button-learn-more:hover {
+    color: gray;
+}
+
+.running-text {
+    box-shadow: 0 0 5px greenyellow;
+    background: greenyellow;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.main-2 {
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}
+
+.main-2-h1 {
+    font-size: 88px;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    margin-left: auto;
+    background: rgb(33, 36, 32);
+    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+    margin-right: 110px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.card-1 {
+    text-align: center;
+    background: rgb(33, 36, 32);
+    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+    margin-right: 110px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.card:hover {
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(135, 202, 34);
+    background: rgb(135, 202, 34);
+    color: black;
+    cursor: pointer;
+}
+
+.card-1:hover {
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(135, 202, 34);
+    background: rgb(135, 202, 34);
+    color: black;
+    cursor: pointer;
+}
+
+.card-img {
+    width: 300px;
+    height: 250px;
+}
+
+.card-img-2 {
+    width: 270px;
+    height: 250px;
+}
+
+.main-2-card-h3 {
+    font-size: 30px;
+}
+
+.main-2-card-p {
+    font-size: 19px;
+}
+
+.main-3 {
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.main-3-h1 {
+    font-size: 88px;
+    margin-bottom: 150px;
+}
+
+.main-3-img {
+    border: 2px solid greenyellow;
+    opacity: 0.5;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.main-3-img:hover {
+    box-shadow: 0 0 10px greenyellow;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+.main-3-text-container {
+    display: flex;
+    text-align: left;
+}
+
+.main-3-p {
+    width: 1190px;
+    margin-left: auto;
+    font-size: 22px;
+}
+
+.button-plug-10years {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: greenyellow;
+    font-size: 25px;
+    border-radius: 10px;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.button-plug-10years:hover {
+    box-shadow: 0 0 10px greenyellow;
+}
+
+.main-3-p-container {
+    margin-left: auto;
+}
+
+.button-plug-10years-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.main-4 {
+    text-align: center;
+    padding-top: 220px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 220px;
+}
+
+.main-4-h1 {
+    font-size: 55px;
+}
+
+table {
+    text-align: center;
+    font-size: 18px;
+}
+
+td {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+th {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.footer-container {
+    text-align: center;
+    padding-top: 220px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.input-container {
+    margin-top: 120px;
+}
+
+.input-mail {
+    height: 40px;
+    width: 520px;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+    color: white;
+    background: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    transition-property: all;
+    text-decoration: 0.4s;
+}
+
+.input-mail {
+    box-shadow: 0 0 10px greenyellow;
+}
+
+.footer-button-container {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+.button-send {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: greenyellow;
+    border-radius: 30px;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.button-send:hover {
+    box-shadow: 0 0 10px greenyellow;
+}
+
+.footer-container-2 {
+    display: flex;
+    background: black;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+}
+
+.footer-2-text {
+    margin-right: 50px;
+}
+
+.footer-logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.footer-2-h2 {
+    color: greenyellow;
+}

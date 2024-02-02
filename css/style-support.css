@@ -1,0 +1,94 @@
+.main-container {
+    text-align: center;
+    padding-left: 420px;
+    padding-right: 420px;
+}
+
+.form-container-support {
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+}
+
+.input-text {
+    margin-right: 20px;
+    height: 40px;
+    width: 320px;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+    color: white;
+    background: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    transition-property: all;
+    text-decoration: 0.4s;
+}
+
+.input-email {
+    margin-right: 20px;
+    height: 40px;
+    width: 320px;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+    color: white;
+    background: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    transition-property: all;
+    text-decoration: 0.4s;
+}
+
+.input-tel {
+    margin-right: 20px;
+    height: 40px;
+    width: 320px;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+    color: white;
+    background: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    transition-property: all;
+    text-decoration: 0.4s;
+}
+
+.input-problem {
+    margin-right: 20px;
+    height: 100px;
+    width: 680px;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+    color: white;
+    background: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    transition-property: all;
+    text-decoration: 0.4s;
+}
+
+.form-support-name {
+    margin-top: 45px;
+}
+
+.form-support-button {
+    margin-top: 40px;
+}
+
+.button-send-1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 335px;
+    margin-bottom: 40px;
+    width: 120px;
+    background: greenyellow;
+    border-radius: 30px;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.button-send-1:hover {
+    background: rgb(140, 207, 38);
+    box-shadow: 0 0 10px rgb(140, 207, 38);
+}

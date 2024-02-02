@@ -1,0 +1,101 @@
+main {
+    text-align: center;
+}
+
+.main-h1 {
+    font-size: 55px;
+}
+
+.cards-container-shop {
+    display: flex;
+}
+
+.cards-container-shop-1 {
+    display: flex;
+    margin-top: 80px;
+}
+
+.card-shop {
+    background: rgb(33, 36, 32);
+    border-radius: 15px;
+    padding: 25px;
+    width: 400px;
+    margin-right: 50px;
+    margin-left: auto;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.card-shop:hover {
+    box-shadow: 0 0 10px greenyellow;
+    padding: 30px;
+}
+
+.card-shop-img {
+    width: 300px;
+}
+
+.card-shop-h1 {
+    font-size: 55px;
+}
+
+.card-shop-h1-1 {
+    margin-top: 55px;
+    font-size: 55px;
+}
+
+.card-shop-p {
+    color: gray;
+    font-size: 20px;
+}
+
+.card-shop-p-1 {
+    margin-top: 55px;
+    color: gray;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.button-buy {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background: greenyellow;
+    font-size: 30px;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.button-buy:hover {
+    box-shadow: 0 0 10px rgb(133, 199, 34);
+    background: rgb(133, 199, 34);
+}
+
+.card-shop-button-price {
+    margin: 7px;
+    text-decoration: underline;
+}
+
+.card-shop-p1 {
+    text-align: left;
+    color: gray;
+    font-size: 20px;
+}
+
+.card-shop-button {
+    margin-top: 65px;
+}
+
+.card-shop-button-2 {
+    margin-top: 45px;
+}
+
+.card-shop-button-5 {
+    margin-top: 45px;
+}
